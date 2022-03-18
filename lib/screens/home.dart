@@ -16,7 +16,7 @@ class _MyHomePageState extends State<MyHomePage> {
   int index = 0;
 
   List<Widget> list = [
-    const CarouselImages(),
+    CarouselImages(),
     const CustomList(),
     const Exercice7()
   ];
